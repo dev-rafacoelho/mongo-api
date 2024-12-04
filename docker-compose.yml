@@ -4,20 +4,7 @@ services:
   fastapi:
     build: .
     ports:
-      mongo:
-  image: mongo:latest
-  ports:
-    - "27017:27017"
-  volumes:
-    - mongo_data:/data/db
-  environment:
-    - MONGO_INITDB_ROOT_USERNAME=rafael
-    - MONGO_INITDB_ROOT_PASSWORD=senha123
-    - MONGO_INITDB_DATABASE=teste
-
-volumes:
-  mongo_data:
-
+      - "8000:8000"
     depends_on:
       - mongo
     environment:
