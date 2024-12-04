@@ -5,7 +5,7 @@ FROM python:3.10-slim
 WORKDIR /
 
 # Copiar o código do projeto para o contêiner
-COPY . /app/
+COPY . /
 
 # Instalar as dependências do projeto
 RUN pip install --no-cache-dir -r requirements.txt
