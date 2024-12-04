@@ -45,7 +45,6 @@ pylint_report.txt
 *.sqlite3
 
 # Docker
-Dockerfile
 docker-compose.yml
 
 # Environment variable files
