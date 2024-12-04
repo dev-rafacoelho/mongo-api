@@ -2,10 +2,10 @@
 FROM python:3.10-slim
 
 # Setar o diretório de trabalho
-WORKDIR /quickstart
+WORKDIR /app
 
 # Copiar o código do projeto para o contêiner
-COPY . /quickstart/
+COPY . /app/
 
 # Instalar as dependências do projeto
 RUN pip install --no-cache-dir -r requirements.txt
