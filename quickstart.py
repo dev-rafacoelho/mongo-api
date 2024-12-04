@@ -2,7 +2,7 @@ from fastapi import FastAPI, HTTPException
 from pymongo import MongoClient
 
 # Conectar ao MongoDB
-uri = "mongodb://mongo:rafael@easypanel.singularmodel.com.br:27017/"
+uri = "mongodb://mongo:rafael@easypanel.singularmodel.com.br:27017"
 client = MongoClient(uri)
 db = client.get_database("teste")
 collection = db.get_collection("teste")
