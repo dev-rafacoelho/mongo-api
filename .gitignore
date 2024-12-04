@@ -1,0 +1,56 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# MySQL
+*.sql
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Mypy
+.mypy_cache/
+
+# Coverage
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+
+# Test-related
+pytest_cache/
+
+# Pylint
+pylint_report.txt
+
+# FastAPI-specific
+*.log
+*.sqlite3
+
+# Docker
+Dockerfile
+docker-compose.yml
+
+# Environment variable files
+.env
+*.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
